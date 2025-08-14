@@ -260,6 +260,66 @@ $$ (eq1)
 > Some more words
 .
 
+Escaped blockquote with dollarmath block
+.
+\> $$
+a=1
+$$
+.
+\> $$
+a=1
+$$
+.
+
+Multiline blockquote with dollarmath block
+.
+> This
+is
+a
+multiline
+blockquote
+$$
+a=1
+$$
+.
+> This
+> is
+> a
+> multiline
+> blockquote
+> $$
+a=1
+$$
+.
+
+Paragraph and dollarmath block
+.
+Dollarmath block
+$$
+a=1
+$$
+.
+Dollarmath block
+
+$$
+a=1
+$$
+.
+
+Paragraph and code block
+.
+Code block
+```
+foo
+```
+.
+Code block
+
+```
+foo
+```
+.
+
 Frontmatter
 .
 ---
